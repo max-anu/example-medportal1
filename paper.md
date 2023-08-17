@@ -1,11 +1,13 @@
 ---
 title: 'Gala: A Python package for galactic dynamics'
+
 tags:
   - Python
   - astronomy
   - dynamics
   - galactic dynamics
   - milky way
+
 authors:
   - name: Max Proft
     orcid: 0009-0003-1611-9516 
@@ -27,10 +29,6 @@ affiliations:
 date: 13 August 2017
 bibliography: paper.bib
 
-# Optional fields if submitting to a AAS journal too, see this blog post:
-# https://blog.joss.theoj.org/2018/12/a-new-collaboration-with-aas-publishing
-aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
-aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
 
 # Summary
@@ -101,15 +99,18 @@ For a quick reference, the following citation commands can be used:
 # Figures
 
 Figures can be included like this:
+
 ![Caption for example figure. \label{fig:example}](figure.png)
+
 and referenced from text using \autoref{fig:example}.
 
 Figure sizes can be customized by adding an optional second parameter:
+
 ![Caption for example figure. \label{fig:second-example}](figure_2.png){ width=20% }
 
 # Acknowledgements
 
 We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+Oh, and support from Kathryn Johnston during the genesis of this project. \autoref{fig:second-example}
 
 # References
