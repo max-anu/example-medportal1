@@ -72,7 +72,7 @@ Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
 Double dollars make self-standing equations:
 
 $$\Theta(x) = \left\{\begin{array}{l}
-0\textrm{ if } x < 0\cr
+0\textrm{ if } x < 0\\
 1\textrm{ else}
 \end{array}\right.$$
 
